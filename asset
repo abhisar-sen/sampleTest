@@ -1,1 +1,7 @@
-
+def example_function(param1, param2):
+    if param1 > param2:
+        return "param1 is greater"
+    elif param1 < param2:
+        return "param2 is greater"
+    else:
+        return "both are equal"
